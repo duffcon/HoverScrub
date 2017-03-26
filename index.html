@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        body{
+            font-family:serif;
+            text-align: center;
+        }
+    </style>
+    <title>Video Interaction</title>
+
+    <!-- jquery -->
+    <script src="js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <!-- my script -->
+    <script src="js/javascript.js" charset="utf-8"></script>
+
+</head>
+<body>
+
+<!-- OLD -->
+    <h1 >Scrub with video controls</h1>
+    <div class="center">
+    <!-- Video -->
+    <video  class="center" width="700"  src="src/animation.mov" controls>
+    </video>
+    </div>
+
+
+
+<!-- NEW -->
+    <h1 >Scrub with pointing</h1>
+    <!-- Live display of X and Y position -->
+    <span id="mouseposition">
+        <span id="x">x</span><b id="w"> /w</b>
+        <span id="y">y</span><b id="h"> /h</b>
+    </span> <br>
+
+    </div>
+    <!-- Video -->
+    <div class="center">
+        <video  class="center" width="700" id="videoelement" src="src/animation.mov">
+    </video>
+
+</body>
+</html>
