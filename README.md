@@ -1,13 +1,13 @@
 # HoverScrub
 
 ### What:
-A simple demo controlling video playback using the mousemove event in HTML5. This is not meant to replace video playback, just provide another option. I dusted off after effects and made a simple animation that gets chaotic at the end. Comprehending such a video will require one to rewatch it forwards and backwards.
+A simple demo controlling video playback using the mousemove event in HTML5.
 
-Note: The playback is controlled only by the x position but I didn't want him to get lonely so I kept the y position in.
+Note: This displays the y position but playback is only controlled by the x position.
 
 ### Why:
 
-Cleaner look. Boredom.
+Cleaner look.
 
 ### How:
 
